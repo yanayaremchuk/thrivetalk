@@ -291,7 +291,7 @@ align-self: center;
 }
 .block-health {
     display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(360px, 1fr) );
+    grid-template-columns: repeat( auto-fit, minmax(480px, 1fr) );
     grid-template-rows: 1fr 1fr;
 }
 .block-health__color {
@@ -432,6 +432,7 @@ align-self: center;
 }
 .contact__text {
     flex: 0 1 75%;
+    justify-content: space-around ;
 }
 .text-contact {
     color: #ffffff;
@@ -604,6 +605,21 @@ align-self: center;
 .contact__img {
     flex: 0 1 25%;
 }
+	 .about-us__text {
+        flex-wrap: wrap;
+        
+     }
+     .about-us__subtitle {
+        flex: 0 1 100%;
+        padding-bottom: 20px;
+    }
+    .about-us__p {
+        flex: 0 1 100%;
+        
+    }
+	.text-help__top, .text-help__centr, .text-contact__top, .text-contact__centr-subtitle, .text-contact__centr, .text-help__bottom{
+        padding-bottom: 20px;
+    }
 }
 @media (max-width: 480px) {
     .top-thrivetalk__container {
@@ -627,18 +643,7 @@ align-self: center;
         width: 100%;
         padding: 10px 30px;
      }
-     .about-us__text {
-        flex-wrap: wrap;
-        
-     }
-     .about-us__subtitle {
-        flex: 0 1 100%;
-        padding-bottom: 20px;
-    }
-    .about-us__p {
-        flex: 0 1 100%;
-        
-    }
+    
     .information__container {
         display: grid;
         grid-template-columns: 100%;
@@ -665,9 +670,7 @@ align-self: center;
     .contact__img {
         flex: 0 1 0%;
     }
-    .text-help__top, .text-help__centr, .text-contact__top, .text-contact__centr-subtitle, .text-contact__centr, .text-help__bottom{
-        padding-bottom: 20px;
-    }
+    
     .menu__list{
         margin: 0 -5px;
     }
