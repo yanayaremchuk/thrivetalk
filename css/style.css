@@ -431,10 +431,10 @@ align-self: center;
     background-color: #22356F;
 }
 .contact__text {
-    flex: 0 1 75%;
-    justify-content: space-around ;
+    
 }
 .text-contact {
+	flex: 0 1 75%;
     color: #ffffff;
     background-color: #22356F;
     padding: 10%;
